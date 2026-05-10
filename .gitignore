@@ -1,0 +1,10 @@
+# Ignore absolutely everything
+*
+
+# Un-ignore specific file types ONLY in the root directory
+!/*.R
+!/*.py
+!/*.sh
+
+# Un-ignore the .gitignore file itself so it gets tracked
+!/.gitignore
